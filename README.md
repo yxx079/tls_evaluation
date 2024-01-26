@@ -1,1 +1,48 @@
 # tls_evaluation
+set $DATASATES= datasets
+set $RESULTS= results
+python experiments/evaluate.py --dataset $DATASET/t17 --method datewise --resources resources/datewise --output  $RESULTS/t17.datewise.json
+python experiments/evaluate.py --dataset datasets/t17 --method clust --output results/t17.clust.json
+```
+
+  Id CommandLine                                                                                                                                                                                                                                       
+  -- -----------                                                                                                                                                                                                                                       
+   1 pip install -r requirements.txt                                                                                                                                                                                                                   
+   2 set $DATASATES= datsets                                                                                                                                                                                                                           
+   3 set $RESULTS=results                                                                                                                                                                                                                              
+   4 python experiments/evaluate.py --dataset $DATASET/t17 --method datewise --resources resources/datewise --output  $RESULTS/t17.datewise.json                                                                                                       
+   5 pip install tilse                                                                                                                                                                                                                                 
+   6 python experiments/evaluate.py --dataset $DATASET/t17 --method datewise --resources resources/datewise --output  $RESULTS/t17.datewise.json                                                                                                       
+   7 pip install -e .                                                                                                                                                                                                                                  
+   8 python experiments/evaluate.py --dataset $DATASET/t17 --method datewise --resources resources/datewise --output  $RESULTS/t17.datewise.json                                                                                                       
+   9 python experiments/evaluate.py --dataset datasets/t17 --method clust --output results/t17.clust.json                                                                                                                                              
+  10 set $RESULTS=results                                                                                                                                                                                                                              
+  11 set $DATASATES=datsets                                                                                                                                                                                                                            
+  12 python experiments/evaluate.py --dataset datasets/t17 --method clust --output results/t17.clust.json                                                                                                                                              
+  13 pip list                                                                                                                                                                                                                                          
+  14 pip install numpy==1.16.3                                                                                                                                                                                                                         
+  15 pip install scikit-learn==0.20.3                                                                                                                                                                                                                  
+  16 pip install spacy==2.1.4                                                                                                                                                                                                                          
+  17 python experiments/evaluate.py --dataset datasets/t17 --method clust --output results/t17.clust.json                                                                                                                                              
+  18 pip install urllib3==1.26.6                                                                                                                                                                                                                       
+  19 python experiments/evaluate.py --dataset datasets/t17 --method clust --output results/t17.clust.json                                                                                                                                              
+  20 pip install numpy==1.16.3                                                                                                                                                                                                                         
+  21 python experiments/evaluate.py --dataset datasets/t17 --method clust --output results/t17.clust.json                                                                                                                                              
+  22 pip reinstall pyrouge                                                                                                                                                                                                                             
+  23 pip uninstall pyrouge                                                                                                                                                                                                                             
+  24 python -m spacy download en                                                                                                                                                                                                                       
+  25 python experiments/evaluate.py --dataset datasets/t17 --method clust --output results/t17.clust.json                                                                                                                                              
+  26 pip show tilse                                                                                                                                                                                                                                    
+  27 git init                                                                                                                                                                                                                                          
+  28 git add .                                                                                                                                                                                                                                         
+  29 git commit -m "timeline evluation"                                                                                                                                                                                                                
+  30 git branch -M main                                                                                                                                                                                                                                
+  31 git remote add origin https://github.com/yxx079/tls_evaluation.git                                                                                                                                                                                
+  32 git push -u origin main                                                                                                                                                                                                                           
+  33 git remote add origin https://github.com/yxx079/tls_evaluation.git                                                                                                                                                                                
+  34 git push -u origin main                                                                                                                                                                                                                           
+  35 command > file.txt                                                                                                                                                                                                                                
+
+
+
+```
